@@ -1,6 +1,7 @@
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
+ * full description and challenges can be found at http://adventofcode.com/
  */
 package Day1;
 
@@ -19,7 +20,6 @@ public class Day1 {
     /**
      * @param args the command line arguments
      */
-    
           
     public static void main(String[] args) {
         // TODO code application logic here
@@ -28,6 +28,8 @@ public class Day1 {
         System.out.println(Day2.ribbonNeeded());
     }
     
+    //this first method was task 1 for day 1 of advent of code. a '(' parenthesis meant go up one floor.
+    //a ')' meant go down one floor. Given the input, figure out which floor Santa ends up on.
     public static int countFloors(){
         String input = "((((()(()(((((((()))(((()((((()())(())()(((()((((((()((("
                 + ")(()(((()(()((())))()((()()())))))))))()((((((())((()))(((((("
